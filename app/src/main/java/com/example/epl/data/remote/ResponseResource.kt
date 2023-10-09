@@ -1,4 +1,4 @@
-package com.example.epl.data.remote.api
+package com.example.epl.data.remote
 
 import retrofit2.Response
 import java.lang.Exception

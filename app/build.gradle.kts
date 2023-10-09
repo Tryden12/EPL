@@ -87,6 +87,10 @@ dependencies {
     implementation ("androidx.compose.material:material-icons-extended:1.5.3")
     implementation ("com.google.accompanist:accompanist-flowlayout:0.17.0")
 
+    // Moshi
+    implementation ("com.squareup.retrofit2:converter-moshi:2.9.0")
+    implementation ("com.squareup.moshi:moshi-kotlin:1.12.0")
+
     // Swipe to refresh
     implementation ("com.google.accompanist:accompanist-swiperefresh:0.24.2-alpha")
 
