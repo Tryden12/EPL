@@ -3,7 +3,7 @@ package com.example.epl.data.remote.dto.teams
 import com.squareup.moshi.Json
 
 data class TeamDto(
-    val `data`: TeamDtoData
+    val data: TeamDtoData
 ) {
     data class TeamDtoData(
         @field:Json(name = "country_id") val countryId: Int,
