@@ -75,6 +75,13 @@ dependencies {
     // Coil
     implementation ("io.coil-kt:coil-compose:2.2.2")
 
+    // Compose Nav Destinations
+    implementation ("io.github.raamcosta.compose-destinations:core:1.1.2-beta")
+    ksp ("io.github.raamcosta.compose-destinations:ksp:1.1.2-beta")
+
+    // Compose lifecycle
+    implementation ("androidx.lifecycle:lifecycle-runtime-compose: 2.6.2")
+
     // Dagger - Hilt
     implementation ("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
